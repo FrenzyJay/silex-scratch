@@ -1,0 +1,11 @@
+home:
+  path: /
+  defaults: { _controller: 'Risk\Controllers\RiskController::indexAction' }
+
+welcome:
+  path: /hello/
+  defaults: { _controller: 'Risk\Controllers\RiskController::welcomeAction'}
+
+hello:
+  path: /hello/{name}
+  defaults: { _controller: 'Risk\Controllers\RiskController::helloAction' }
